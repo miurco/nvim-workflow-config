@@ -1,0 +1,110 @@
+[] Lua, new programming concepts like coroutines, functions, lambdas, etc
+
+What is the thing that will make your workflow better than others?
+
+[x]Snacks provides good explorer. Toggle, and reveal, rename, copy
+[x]Install nerd fonts 
+[x]Install alacritty themes
+[] Flash for quick jumping
+
+[] blink sources are having a pop-up window where the background is not so user-friendly, 
+which one are they using: the terminal one or the one defined in nvim?
+
+
+Previous Focus
+--------------
+[x] Tree-sitter, highlighting, increase/decrease selection, how does it work with LSP?
+[x] LSP highlighting, easy to enable and disable, do you want to disable the LSP fonts/themes/styles if any?
+
+			LSP Server → Neovim LSP Client → Semantic Tokens → Highlight Groups → Theme Colors
+
+
+			1. Code: val x = 5
+
+			2. Treesitter parser creates syntax tree:
+			   val     → node type: "keyword"
+			   x       → node type: "variable"  
+			   =       → node type: "operator"
+			   5       → node type: "number"
+
+			3. Treesitter maps nodes to highlight groups:
+			   keyword  → @keyword
+			   variable → @variable
+			   operator → @operator
+			   number   → @number
+
+			4. Theme defines colors:
+			   @keyword  = purple
+			   @variable = blue
+			   @operator = white
+			   @number   = orange
+
+			5. Result: val is purple, x is blue, = is white, 5 is orange
+
+			**If theme doesn't define a group ?**
+			@keyword → not defined in theme → highlight group: none → no color
+
+			you can add manually
+			vim.api.nvim_set_hl(0, '@keyword', { fg = '#bb9af7' }) --purple
+
+
+
+Current Focus
+-------------
+[] install yaml/json formatter
+[] localai.io, similar to ollama but for enterprise
+[] mods 
+
+[] Improve the understanding and habbits of making use of the quick fix list
+	- changes across the entire quickfix list 
+	- opecodeai quickfix list as context
+	- UX of navigating through the quickfix list
+
+[] ACP agents, good concepts, why they are defined and how to build on top of them ?
+[] You found a lot of tools that are terminal based with AI like
+	- mods
+	- tmuxAi
+	
+
+how big is the context of the mods ?
+mods --api ollama --model mistral "Question" 
+mods --contiue xxxxx ""
+
+
+[x] No protocol for companions ?
+    No, not yet.
+
+
+[] Why there is no ACP client within the nvim, is it easy to difine one ? A lua client of the ACP ? Simple one
+   [] Simple lua component that would like a client. That could be reused and further be integrated with all other source managements.
+
+[] Implement nvim companion which will be based on the OpenCode terminal based agent. It should provide the models the OpenCode to work with. There should be two OpenCode instances one agent for low level but it should take decisions based on the highlevel things. 
+[] crush, opencode, mods
+[] enhance the switch font sh utility with glum
+
+
+You looking to enhance your productivity and flow so that you could enable the ideas to flow into code.
+
+- You looking to learn more about typescript
+- You looking to lear more about the terminal based agents
+- You looking to learn more about nvim architecture and lsp/agent/ client communication part
+
+# Start ollam
+ollama serve
+
+# View your models
+ollama list
+
+# Code generation
+ollama run deepseek-coder:latest "write a Kotlin function to parse JSON"
+
+# Architecture discussion
+ollama run mixtral:latest "explain microservices vs monolith"
+
+# General questions
+ollama run mistral:latest "what is clean architecture"
+
+# Read the full guide
+cat ~/mods-usage.md
+
+

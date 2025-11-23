@@ -1,0 +1,56 @@
+{
+  "plugins": {
+    "aerial.nvim": {
+      "rev": "5e687b5",
+      "src": "https://github.com/stevearc/aerial.nvim"
+    },
+    "autoclose.nvim": {
+      "rev": "3f86702",
+      "src": "https://github.com/m4xshen/autoclose.nvim"
+    },
+    "blink.cmp": {
+      "rev": "2cb0a71",
+      "src": "https://github.com/Saghen/blink.cmp"
+    },
+    "gitsigns.nvim": [],
+    "lazydocker.nvim": {
+      "rev": "3330d1f",
+      "src": "https://github.com/mgierada/lazydocker.nvim"
+    },
+    "lazygit.nvim": {
+      "rev": "2305dee",
+      "src": "https://github.com/kdheepak/lazygit.nvim"
+    },
+    "no-neck-pain.nvim": {
+      "rev": "c3d96b6",
+      "src": "https://github.com/shortcuts/no-neck-pain.nvim"
+    },
+    "nvim-treesitter": [],
+    "nvim-zoxide": {
+      "rev": "aa53473",
+      "src": "https://github.com/alfaix/nvim-zoxide"
+    },
+    "opencode.nvim": [],
+    "plenary.nvim": {
+      "rev": "b9fd522",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "render-markdown.nvim": {
+      "rev": "060c911",
+      "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
+    "snacks.nvim": [],
+    "telescope-zoxide": {
+      "rev": "54bfe63",
+      "src": "https://github.com/jvgrootveld/telescope-zoxide"
+    },
+    "telescope.nvim": {
+      "rev": "b4da76b",
+      "src": "https://github.com/nvim-telescope/telescope.nvim"
+    },
+    "yanky.nvim": {
+      "rev": "04775cc",
+      "src": "https://github.com/gbprod/yanky.nvim"
+    }
+  }
+}
