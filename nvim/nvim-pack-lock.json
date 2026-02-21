@@ -1,0 +1,76 @@
+{
+  "plugins": {
+    "aerial.nvim": {
+      "rev": "3c42785",
+      "src": "https://github.com/stevearc/aerial.nvim"
+    },
+    "autoclose.nvim": {
+      "rev": "3f86702",
+      "src": "https://github.com/m4xshen/autoclose.nvim"
+    },
+    "blink.cmp": {
+      "rev": "2cb0a71",
+      "src": "https://github.com/Saghen/blink.cmp"
+    },
+    "gitsigns.nvim": {
+      "rev": "23ae90a2a52fdc9b8c50dc61d6c30ebb18521343",
+      "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
+    "lazydocker.nvim": {
+      "rev": "3330d1f",
+      "src": "https://github.com/mgierada/lazydocker.nvim"
+    },
+    "lazygit.nvim": {
+      "rev": "2305dee",
+      "src": "https://github.com/kdheepak/lazygit.nvim"
+    },
+    "minuet-ai.nvim": {
+      "rev": "fc483f1e8afdbb6dbe9c8cb1b00d51f8f9c8f7f1",
+      "src": "https://github.com/milanglacier/minuet-ai.nvim"
+    },
+    "no-neck-pain.nvim": {
+      "rev": "c3d96b6",
+      "src": "https://github.com/shortcuts/no-neck-pain.nvim"
+    },
+    "nvim-treesitter": {
+      "rev": "42fc28ba918343ebfd5565147a42a26580579482",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "nvim-zoxide": {
+      "rev": "aa53473",
+      "src": "https://github.com/alfaix/nvim-zoxide"
+    },
+    "plenary.nvim": {
+      "rev": "b9fd522",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "render-markdown.nvim": {
+      "rev": "060c911",
+      "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
+    "snacks.nvim": {
+      "rev": "bfe8c26dbd83f7c4fbc222787552e29b4eccfcc0",
+      "src": "https://github.com/folke/snacks.nvim"
+    },
+    "supermaven-nvim": {
+      "rev": "07d20fce48a5629686aefb0a7cd4b25e33947d50",
+      "src": "https://github.com/supermaven-inc/supermaven-nvim"
+    },
+    "telescope-zoxide": {
+      "rev": "54bfe63",
+      "src": "https://github.com/jvgrootveld/telescope-zoxide"
+    },
+    "telescope.nvim": {
+      "rev": "b4da76b",
+      "src": "https://github.com/nvim-telescope/telescope.nvim"
+    },
+    "toggleterm.nvim": {
+      "rev": "9a88eae",
+      "src": "https://github.com/akinsho/toggleterm.nvim"
+    },
+    "yanky.nvim": {
+      "rev": "04775cc",
+      "src": "https://github.com/gbprod/yanky.nvim"
+    }
+  }
+}
